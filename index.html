@@ -12,17 +12,21 @@
         font-family: 'Courier New', Courier, monospace;
         font-style: italic;
         color: #416788;
+        text-align: center;
+
       }
 
       .button {
-        display: block;
-        width: 60px;
         color: #070707;
         background-color:#7389AE;
-        padding: 10px 20px;
+        padding: 10px 25px;
         text-decoration: none;
         text-align: center;
         border-radius: 100%;
+        margin: auto;
+        display: block;
+        width: 60px;
+
       }
 
       .button:hover {
@@ -38,27 +42,36 @@
 
       body {
         background-color: #FEF6C9;
-        color: #070707;
-        font-family: 'Montserrat', sans-serif;
       }
 
-      #textoSobreMim {
+      #aboutMeText {
+        background-color: #FEF6C9;
+        color: #070707;
         font-family: 'Montserrat', sans-serif;
+        text-align: center;
       }
 
       #profilePic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
         border-radius: 100%;
       }
 
-
+      #skillList {
+        text-align: center;
+        list-style: none;
+        margin: auto;
+        padding: 0;
+      }
     </style>
   </head>
   <body>
-    <p id = "topo"><a href = "#nome">Nome</a></p>
+    <p id = "topo"><a class="button" href = "#nome">Nome</a></p>
 
-    <p><a href = "#sobre">Sobre Mim</a></p>
-    <p><a href = "#habilidades">Habilidades</a></p>
-    <p><a href = "#redessociais">Redes Sociais</a></p>
+    <p><a class="button" href = "#sobre">Sobre Mim</a></p>
+    <p><a class="button" href = "#habilidades">Habilidades</a></p>
+    <p><a class="button" href = "#redessociais">Redes Sociais</a></p>
 
     <br>
     <br>
@@ -74,13 +87,13 @@
     <br>
     <br>
 
-    <h2 class = "headlines">Sobre mim:</h2>
+    <h2 id = "sobre" class = "headlines">Sobre mim:</h2>
 
-    <p>Meu nome é <span class = "highlightedWords">Gabriel Paulillo</span>, tenho 23 anos e atualmente <br> 
+    <p id="aboutMeText">Meu nome é <span class = "highlightedWords">Gabriel Paulillo</span>, tenho 23 anos e atualmente <br> 
     moro na cidade de <span class = "highlightedWords">Mogi das Cruzes - SP</span>! Sou formado em <br>
     Design de Games pela faculdade Anhembi Morumbi. <br>
     <br>
-    Amo ler, amo ir à academia e jogar jogos online. <br>
+    Amo ler, ir à academia e jogar jogos online. <br>
     <br>
     Decidi mudar de carreira, estou estudando na Trybe e <br>
     estou bem animado com tudo o que estou aprendendo e o <br> 
@@ -89,21 +102,23 @@
     <br>
     <br>
 
-    <h3 class = "headlines">Habilidades:</h3>
+    <h3 id = "habilidades" class = "headlines">Habilidades:</h3>
 
-    <ul>
+    <ul id = "skillList">
       <li>Adobe Premiere</li>
       <li>Adobe Photoshop</li>
       <li>Adobe Illutstrator</li>
       <li>UI/UX</li>
     </ul>
 
-    <h3 class= "headlines">Redes Sociais:</h4>
-    <a class="button" href = "https://www.linkedin.com/in/gabrielpaulillo/">LinkedIn</a>
+    <h3 id = "redessociais" class = "headlines">Redes Sociais:</h4>
+
+
+    <p> <a class="button" href = "https://www.linkedin.com/in/gabrielpaulillo/">LinkedIn</a>
+    <p> <a class="button" href = "https://github.com/gabrielpaulillo">GitHub</a>
+
     <br>
-    <a class="button" href = "https://github.com/gabrielpaulillo">GitHub</a>
     <br>
-    <br>
-    <a class="button" href = "#topo"> Clique para voltar ao topo</a></p>
+    <p><a class="button" href = "#topo"> Clique para voltar ao topo</a></p>
   </body>
 </html>
