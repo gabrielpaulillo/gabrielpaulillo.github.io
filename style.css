@@ -4,6 +4,10 @@
     color: #416788;
   }
 
+  .name {
+    text-align: center;
+  }
+
   .button {
     color: #070707;
     background-color:#7389AE;
