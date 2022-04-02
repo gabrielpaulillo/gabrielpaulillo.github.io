@@ -26,18 +26,29 @@
   }
 
   #aboutMeText {
-    background-color: #FEF6C9;
     color: #070707;
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 140px;
+    top: 27px;
+  }
+
+  #sobre {
+    position: absolute;
+    right: 470px;
+    top: -8px;
   }
 
   .pictureContainer {
-      height: 300px;
+      height: 220px;
+      position: relative;
   }
 
   #profilePic {
     float: left;
-    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #416788;
   }
 
   #skillList {
