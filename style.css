@@ -1,0 +1,56 @@
+.headlines {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #416788;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .button {
+    color: #070707;
+    text-decoration: none;
+  }
+
+  .highlightedWords {
+    font-style:italic;
+    font-weight: 600;
+    font-size: 16px;
+    color: #7389AE;
+  }
+
+  body {
+    background-color: #FEF6C9;
+    padding: 3%;
+  }
+
+  #aboutMeText {
+    color: #070707;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 110px;
+    top: 27px;
+  }
+
+  #sobre {
+    position: absolute;
+    right: 440px;
+    top: -8px;
+  }
+
+  .pictureContainer {
+      height: 220px;
+      position: relative;
+  }
+
+  #profilePic {
+    float: left;
+    height: 200px;
+    padding: 10px;
+    background-color: #416788;
+  }
+
+  ul li:nth-child(even) {
+    background-color: chocolate;
+  }
